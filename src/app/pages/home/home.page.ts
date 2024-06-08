@@ -51,6 +51,10 @@ export class HomePage implements OnInit {
       icon: 'car-outline',
       name: 'fab',
       redirectTo: '/fab'
+    }, {
+      icon: 'grid-outline',
+      name: 'grid',
+      redirectTo: '/grid'
     }
   ];
 

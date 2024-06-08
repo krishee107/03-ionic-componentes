@@ -1,0 +1,28 @@
+<app-header title="Grid"></app-header>
+
+<ion-content [fullscreen]="true">
+
+
+  <ion-grid fixed="true">
+    <ion-row>
+
+      <ion-col *ngFor="let item of [1,1,1,1,1,1,1,1,1,1,1,1]" size="12" size-lg="3" size-md="4" size-sm="6">
+        <ion-card>
+          <img src="/assets/stan-lee.jpg">
+        </ion-card>
+
+        <ion-card-header>
+          <ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>
+          <ion-card-title>Awesome Title</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+          Awesome content
+        </ion-card-content>
+      </ion-col>
+
+
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
