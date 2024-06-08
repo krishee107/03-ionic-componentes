@@ -17,15 +17,19 @@ const routes: Routes = [
   },
   {
     path: 'action-sheet',
-    loadChildren: () => import('./pages/action-sheet/action-sheet.module').then( m => m.ActionSheetPageModule)
+    loadChildren: () => import('./pages/action-sheet/action-sheet.module').then(m => m.ActionSheetPageModule)
   },
   {
     path: 'avatar',
-    loadChildren: () => import('./pages/avatar/avatar.module').then( m => m.AvatarPageModule)
+    loadChildren: () => import('./pages/avatar/avatar.module').then(m => m.AvatarPageModule)
   },
   {
     path: 'buttons',
-    loadChildren: () => import('./pages/buttons/buttons.module').then( m => m.ButtonsPageModule)
+    loadChildren: () => import('./pages/buttons/buttons.module').then(m => m.ButtonsPageModule)
+  },
+  {
+    path: 'card',
+    loadChildren: () => import('./pages/card/card.module').then(m => m.CardPageModule)
   },
 ];
 
