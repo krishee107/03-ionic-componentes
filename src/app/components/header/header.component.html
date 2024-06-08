@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home" text="Volver" color="primary" mode="ios"></ion-back-button>
+
+    </ion-buttons>
+    <ion-title class="ion-text-capitalize">{{title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+<!-- slot="start" para que el botón de atrás se muestre a la izquierda -->
+<!-- Si reiniciamos la app y perdemos la cola de tarjetas, nos llevará a la página home -->
+<!-- Si añadimos text="Back" al ion-back-button, se mostrará el texto "Back" en lugar de la flecha -->
+<!-- Si añadimos color="primary" al ion-back-button, el texto "Volver" se mostrará en color azul -->
+<!-- Si añadimos mode="ios" al ion-back-button, el botón de atrás se mostrará con el estilo de iOS. Esto funciona en la mayoría de componentes -->
