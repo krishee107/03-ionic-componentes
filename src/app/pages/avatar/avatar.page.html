@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>avatar</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-avatar>
+        <!-- <img src="/assets/stan-lee.jpg" /> --> <!-- Carga imagen de forma tradicional -->
+        <ion-img src="/assets/stan-lee.jpg"></ion-img> Carga imagen de forma optimizada con ion-img y lazy load
+      </ion-avatar>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-chip color="primary" outline="true">
+    <ion-avatar>
+      <ion-img src="/assets/stan-lee.jpg"></ion-img>
+    </ion-avatar>
+    <ion-label>Default</ion-label>
+  </ion-chip>
+
+  <ion-list>
+    <ion-item>
+      <ion-avatar slot="start">
+        <ion-img src="/assets/stan-lee.jpg"></ion-img>
+      </ion-avatar>
+      <ion-label>Awesome Label</ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

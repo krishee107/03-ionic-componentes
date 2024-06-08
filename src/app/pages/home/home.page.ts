@@ -22,7 +22,12 @@ export class HomePage implements OnInit {
       icon: 'logo-apple',
       name: 'Alert',
       redirectTo: '/alert'
-    }
+    },
+    {
+      icon: 'beaker-outline',
+      name: 'Avatar',
+      redirectTo: '/avatar'
+    },
   ];
 
   constructor() { }
