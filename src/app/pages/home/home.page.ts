@@ -59,7 +59,37 @@ export class HomePage implements OnInit {
       icon: 'infinite-outline',
       name: 'infinite',
       redirectTo: '/infinite'
-    }
+    },
+    {
+      icon: 'hammer-outline',
+      name: 'Input',
+      redirectTo: '/input'
+    },
+    {
+      icon: 'list-outline',
+      name: 'List',
+      redirectTo: '/list'
+    },
+    {
+      icon: 'reorder-four-outline',
+      name: 'List Reorder',
+      redirectTo: '/list-reorder'
+    },
+    {
+      icon: 'refresh-circle-outline',
+      name: 'Loading',
+      redirectTo: '/loading'
+    },
+    {
+      icon: 'swap-vertical',
+      name: 'Modal',
+      redirectTo: '/modal'
+    },
+    {
+      icon: 'push-outline',
+      name: 'Popover',
+      redirectTo: '/popover'
+    },
   ];
 
   constructor() { }
