@@ -7,6 +7,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { FiltroPipe } from './pipes/filtro.pipe';
 
 @NgModule({
   declarations: [AppComponent],

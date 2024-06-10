@@ -44,3 +44,8 @@
 ion-item {
   --background: transparent;
 }
+
+ion-searchbar {
+  --background: transparent !important;
+  --box-shadow: none !important
+}
