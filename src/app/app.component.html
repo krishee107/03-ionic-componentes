@@ -5,12 +5,20 @@
         <ion-title>Awesome avocado menu</ion-title>
       </ion-toolbar>
     </ion-header>
+
+
     <ion-content>
+
+
       <ion-list>
-        <ion-item>
-          <ion-label>Awesome Label</ion-label>
-        </ion-item>
+        <ion-menu-toggle *ngFor="let item of menuList | async">
+          <ion-item [routerLink]="[item.redirectTo]">
+            <ion-icon [name]="item.icon" slot="start" color="primary"></ion-icon>
+            <ion-label>{{item.name}}</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
       </ion-list>
+
     </ion-content>
   </ion-menu>
 
