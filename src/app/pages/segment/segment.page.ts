@@ -15,6 +15,11 @@ export class SegmentPage implements OnInit {
 
   ngOnInit() {
     this.superHeroes = this.dataService.getHeroes();
+    this.segmentChanged({
+      detail: {
+        value: this.publisher
+      }
+    });
   }
 
 
