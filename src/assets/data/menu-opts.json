@@ -70,7 +70,7 @@
     "redirectTo": "/loading"
   },
   {
-    "icon": "swap-vertical",
+    "icon": "phone-portrait-outline",
     "name": "Modal",
     "redirectTo": "/modal"
   },
