@@ -1,0 +1,12 @@
+<app-header titulo="Toast"></app-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+
+  <ion-button (click)="presentToastWithOptions()" expand="block">
+    presentToastWithOptions
+  </ion-button>
+
+  <ion-button (click)="presentToast('top')" expand="block">
+    presentToast
+  </ion-button>
+</ion-content>
