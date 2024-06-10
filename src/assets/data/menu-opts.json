@@ -75,7 +75,7 @@
     "redirectTo": "/modal"
   },
   {
-    "icon": "push-outline",
+    "icon": "tablet-portrait-outline",
     "name": "Popover",
     "redirectTo": "/popover"
   }
